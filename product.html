@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!---Tailwind CSS CDN LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!---Navbar--->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+        <ul class="flex gap-5 text-gray-600">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                 <a class="hover:underline hover:text-black" href="#">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Our Product-->
+    <section class="text-center mt-10">
+        <h1 class="text-black font-bold mt-5 text-3xl">Our Products</h1>
+        <input type="text" class="border border-black p-2 mr-3 w-10/12 mt-4"
+        class="placeholder:text-gray-500 placeholder:italic ..." placeholder="Search for a Products..." type="text" name="search">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-7 gap-3">
+            <div>
+                <img src="image/bestseller1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <P>Daisy plant</P>
+                <P>$20</P>
+            </div>
+            <div>
+                <img src="image/bestseller2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <P>Jasmine plant</P>
+                <P>$10</P>
+            </div>
+            <div>
+                <img src="image/bestseller3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <P>Marigold plant</P>
+                <P>$15</P>
+            </div>
+            <div>
+                <img src="image/bestseller4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <P>Rose plant</P>
+                <P>$30</P>
+            </div>
+            <div>
+                <img src="image/bestseller1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <P>PaperArt plant</P>
+                <P>$40</P>
+            </div>
+            <div>
+                <img src="image/bestseller3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <P>Carnation plant</P>
+                <P>$25</P>
+            </div>
+            <div>
+                <img src="image/bestseller4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <P>Sunflower plant</P>
+                <P>$10</P>
+            </div>
+            <div>
+                <img src="image/bestseller2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <P>Tulip plant</P>
+                <P>$30</P>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="bg-green-100 p-10 mt-3">
+        <h1 class="text-4xl font-bold">GREENDEN</h1>
+        <p>The Standard Quality Plant are just started $20 order now</p>
+        <P>@ 2025 Greenden.com</P>
+    </section>
+</body>
+</html>
